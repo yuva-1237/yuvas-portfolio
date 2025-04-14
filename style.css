@@ -1,0 +1,211 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #181818;
+    color: #f0f0f0;
+    font-family: Georgia;
+}
+
+.dark-theme a {
+    color: #a8dadc;
+}
+
+.dark-theme a:hover {
+    color: #45a247;
+}
+
+.dark-theme header nav {
+    background-color: #222;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-theme header nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dark-theme header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.dark-theme header nav ul li {
+    margin-left: 2rem;
+}
+
+.dark-theme header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dark-theme .hero {
+    background-color: #222;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.dark-theme .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.dark-theme .hero-content p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+.dark-theme .button {
+    display: inline-block;
+    background-color: #45a247;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.dark-theme .button:hover {
+    background-color: #367c39;
+}
+
+.dark-theme .about, .dark-theme .skills, .dark-theme .projects, .dark-theme .contact {
+    padding: 4rem 2rem;
+    text-align:left;
+    border-bottom: 1px solid #333;
+}
+
+.dark-theme .about h2, .dark-theme .skills h2, .dark-theme .projects h2, .dark-theme .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.dark-theme .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dark-theme .skill-item {
+    background-color: #222;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dark-theme .skill-item i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #a8dadc;
+}
+
+.dark-theme .skill-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.dark-theme .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dark-theme .project-card {
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dark-theme .project-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.dark-theme .project-card h3 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.dark-theme .project-card p {
+    padding: 0 1rem 1rem;
+    margin: 0;
+    color: #ccc;
+    text-align: center;
+}
+
+.dark-theme .project-card a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dark-theme .project-card a:hover {
+    background-color: #444;
+}
+
+.dark-theme .contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.dark-theme .contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.dark-theme .contact-info i {
+    margin-right: 0.5rem;
+    color: #a8dadc;
+}
+
+.dark-theme footer {
+    background-color: #222;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Basic Responsive Design */
+@media (max-width: 768px) {
+    .dark-theme header nav ul {
+        display: none; /* Hide for smaller screens, can add a toggle later */
+    }
+
+    .dark-theme .hero {
+        padding: 3rem 1rem;
+    }
+
+    .dark-theme .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .dark-theme .skills-list, .dark-theme .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dark-theme .about, .dark-theme .skills, .dark-theme .projects, .dark-theme .contact {
+        padding: 3rem 1rem;
+    }
+}
