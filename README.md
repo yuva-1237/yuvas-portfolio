@@ -17,20 +17,6 @@ Focus: Designing clean, responsive, and user-friendly interfaces that leave a la
 Motto: "Turn dreams into reality through code and creativity." 💡
 
 
-
----
-
-🛠️ My GitHub Journey
-
-GitHub Profile: github.com/yuva-1237
-
-Some projects I'm proud of:
-
-Yuvas Portfolio – My live professional portfolio.
-
-Basics of Python – Teaching and exploring Python fundamentals.
-
-
 ---
 
 🎯 My Skills and Interests
