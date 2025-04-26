@@ -30,12 +30,6 @@ Yuvas Portfolio – My live professional portfolio.
 
 Basics of Python – Teaching and exploring Python fundamentals.
 
-Python Quiz Game – An interactive way to learn Python concepts.
-
-Climate Action Project – Raising awareness through technology under SDG 13.
-
-
-
 
 ---
 
