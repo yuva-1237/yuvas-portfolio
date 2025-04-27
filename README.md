@@ -8,8 +8,6 @@ I enjoy bringing creativity and logic together to build projects that not only w
 
 🖥️ My Portfolio Highlights
 
-My Website: yuvas-portfolio.vercel.app
-
 Built with: HTML, CSS, JavaScript, Nix ⚙️
 
 Focus: Designing clean, responsive, and user-friendly interfaces that leave a lasting impression. 🎨
