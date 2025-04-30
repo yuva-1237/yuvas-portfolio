@@ -63,14 +63,3 @@ Become a Full-Stack Developer mastering both front-end and back-end technologies
 Contribute to open-source projects and tech communities.
 
 Create projects that combine technology and positive social impact.
-
-
-
----
-
-> ✨ I believe every line of code has the power to create something extraordinary — and I'm excited to keep learning, building, and making a difference!
-
-
-
-
----
