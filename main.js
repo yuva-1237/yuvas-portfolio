@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.getElementById('menu-toggle');
-    const navUL = document.getElementById('nav-links');
     
     // Smooth scroll for nav links
     const navLinks = document.querySelectorAll('nav a');
