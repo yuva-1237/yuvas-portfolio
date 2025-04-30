@@ -234,6 +234,14 @@ body {
     justify-content: space-between;
 }
 
+.dark-theme .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
 .dark-theme .project-card:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 10px 25px rgba(168, 218, 220, 0.3);
