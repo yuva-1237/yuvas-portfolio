@@ -173,8 +173,9 @@ body {
 }
 
 .dark-theme .about h2, .dark-theme .skills h2, .dark-theme .projects h2, .dark-theme .contact h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem;
+    color: skyblue;
 }
 
 .dark-theme .skills-list {
