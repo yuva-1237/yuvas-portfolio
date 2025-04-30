@@ -108,7 +108,7 @@ body {
 
 .dark-theme .button {
     display: inline-block;
-    background-color: white;
+    background-color: orange;
     color: black;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
@@ -118,7 +118,7 @@ body {
 }
 
 .dark-theme .button:hover {
-    background-color: orange;
+    background-color: white;
     transform: scale(1.05);
 }
 
