@@ -255,20 +255,46 @@ body {
     background-color: #444;
 }
 
-.dark-theme .contact-info {
+.contact-info {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.contact-card {
+    background-color: #222;
+    padding: 1.2rem 2rem;
+    border-radius: 12px;
     text-align: center;
+    color: #f0f0f0;
+    width: 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(168, 218, 220, 0.1);
 }
 
-.dark-theme .contact-info p {
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+.contact-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(168, 218, 220, 0.3);
+    background-color: #2d2d2d;
 }
 
-.dark-theme .contact-info i {
-    margin-right: 0.5rem;
+.contact-card i {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
     color: #a8dadc;
 }
+
+.contact-card a {
+    display: block;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
 
 .dark-theme footer {
     background-color: #222;
