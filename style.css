@@ -46,38 +46,7 @@ body {
     font-weight: bold;
 }
 
-.dark-theme header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
 
-.dark-theme header nav ul li {
-    margin-left: 2rem;
-}
-
-.dark-theme header nav ul li a {
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.dark-theme header nav ul li a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #45a247;
-    left: 0;
-    bottom: -5px;
-    transition: width 0.3s ease;
-}
-
-.dark-theme header nav ul li a:hover::after {
-    width: 100%;
-}
 
 @media (max-width: 768px) {
     .dark-theme header nav ul {
