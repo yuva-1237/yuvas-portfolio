@@ -109,7 +109,7 @@ body {
 .dark-theme .button {
     display: inline-block;
     background-color: #45a247;
-    color: #fff;
+    color: white;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
