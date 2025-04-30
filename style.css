@@ -70,6 +70,7 @@ body {
     background-color: black;
     padding: 5rem 2rem;
     text-align: center;
+    border-bottom: 5px solid #333;
 }
 
 .dark-theme .hero-content h1 {
