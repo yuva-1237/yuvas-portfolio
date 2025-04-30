@@ -46,13 +46,22 @@ body {
     font-weight: bold;
 }
 
-
-
-@media (max-width: 768px) {
-    .dark-theme header nav ul {
-        display: none; /* Hide for smaller screens, can add a toggle later */
-    }
+.dark-theme header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
+
+.dark-theme header nav ul li {
+    margin-left: 2rem;
+}
+
+.dark-theme header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 
 .dark-theme .hero {
