@@ -5,6 +5,18 @@ body {
     line-height: 1.6;
 }
 
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Dark Theme Styles */
 .dark-theme {
     background-color: #181818;
@@ -14,6 +26,7 @@ body {
 
 .dark-theme a {
     color: #a8dadc;
+    transition: color 0.3s ease;
 }
 
 .dark-theme a:hover {
@@ -45,8 +58,25 @@ body {
 }
 
 .dark-theme header nav ul li a {
+    position: relative;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.dark-theme header nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #45a247;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+
+.dark-theme header nav ul li a:hover::after {
+    width: 100%;
 }
 
 .dark-theme .hero {
@@ -74,16 +104,17 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .dark-theme .button:hover {
     background-color: #367c39;
+    transform: scale(1.05);
 }
 
 .dark-theme .about, .dark-theme .skills, .dark-theme .projects, .dark-theme .contact {
     padding: 4rem 2rem;
-    text-align:left;
+    text-align: left;
     border-bottom: 1px solid #333;
 }
 
@@ -104,12 +135,18 @@ body {
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dark-theme .skill-item:hover i {
+    transform: scale(1.2) rotate(10deg);
 }
 
 .dark-theme .skill-item i {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #a8dadc;
+    transition: transform 0.3s ease;
 }
 
 .dark-theme .skill-item h3 {
@@ -128,12 +165,23 @@ body {
     background-color: #222;
     border-radius: 8px;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark-theme .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .dark-theme .project-card img {
     width: 100%;
     display: block;
     height: auto;
+    transition: transform 0.4s ease;
+}
+
+.dark-theme .project-card:hover img {
+    transform: scale(1.05);
 }
 
 .dark-theme .project-card h3 {
@@ -190,7 +238,7 @@ body {
 /* Basic Responsive Design */
 @media (max-width: 768px) {
     .dark-theme header nav ul {
-        display: none; /* Hide for smaller screens, can add a toggle later */
+        display: none;
     }
 
     .dark-theme .hero {
