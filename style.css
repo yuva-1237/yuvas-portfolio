@@ -78,7 +78,7 @@ body {
 }
 
 .dark-theme .hero-links a {
-    background-color: lightblue;
+    background-color: blue;
     color: #fff;
     padding: 0.8rem 1.5rem; /* Increased padding for better spacing */
     margin: 0.3rem; /* Small gap between buttons */
