@@ -79,6 +79,13 @@ body {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .dark-theme header nav ul {
+        display: none; /* Hide for smaller screens, can add a toggle later */
+    }
+}
+
+
 .dark-theme .hero {
     background-color: #222;
     padding: 5rem 2rem;
