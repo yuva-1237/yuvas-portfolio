@@ -34,7 +34,7 @@ body {
 }
 
 .dark-theme header nav {
-    background-color: #222;
+    background-color: black;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,7 @@ body {
 }
 
 .dark-theme header nav .logo {
+    background-color: black;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -141,6 +142,7 @@ body {
 }
 
 .dark-theme .about, .dark-theme .skills, .dark-theme .projects, .dark-theme .contact {
+    background-color: black;
     padding: 4rem 2rem;
     text-align: left;
     border-bottom: 1px solid #333;
