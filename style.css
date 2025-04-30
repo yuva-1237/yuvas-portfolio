@@ -45,6 +45,7 @@ body {
     background-color: black;
     font-size: 1.5rem;
     font-weight: bold;
+    border-bottom: 5px solid #333;
 }
 
 .dark-theme header nav ul {
@@ -145,7 +146,7 @@ body {
     background-color: black;
     padding: 4rem 2rem;
     text-align: left;
-    border-bottom: 1px solid #333;
+    border-bottom: 5px solid #333;
 }
 
 .dark-theme .about h2, .dark-theme .skills h2, .dark-theme .projects h2, .dark-theme .contact h2 {
