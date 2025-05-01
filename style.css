@@ -206,7 +206,7 @@ body {
 .skill-item i {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #a8dadc;
+    color: aqua;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
