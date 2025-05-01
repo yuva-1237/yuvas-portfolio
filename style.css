@@ -118,7 +118,7 @@ body {
 }
 
 .dark-theme .button:hover {
-    background-color: white;
+    background-color: red;
     transform: scale(1.05);
 }
 
@@ -347,7 +347,7 @@ body {
 .contact-card i {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
-    color: #a8dadc;
+    color: aqua;
 }
 
 .contact-card a {
