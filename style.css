@@ -211,7 +211,7 @@ body {
 }
 
 .skill-item:hover i {
-    color: orange;
+    color: limegreen;
     transform: rotate(5deg);
 }
 
