@@ -125,12 +125,12 @@ body {
 .hero-content img {
     border-radius: 50%;
     border: 2px solid aqua;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content img:hover {
-    transform: scale(1.1) rotate(3deg);
+    transform: scale(1.2) rotate(3deg);
     box-shadow: 0 8px 20px rgba(168, 218, 220, 0.6);
 }
 
@@ -211,7 +211,7 @@ body {
 }
 
 .skill-item:hover i {
-    color: limegreen;
+    color: lime;
     transform: rotate(5deg);
 }
 
