@@ -375,6 +375,23 @@ body {
     font-size: 0.9rem;
 }
 
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.scroll-top:hover {
+  background-color: #e6b800;
+}
+
+
   .scroll-top {
     bottom: 10px;
     right: 10px;
