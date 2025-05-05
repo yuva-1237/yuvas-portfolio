@@ -9,7 +9,7 @@ body {
 /* Animations */
 .fade-in {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(100px);
     transition: opacity 3s ease-out, transform 3s ease-out;
 }
 
@@ -47,7 +47,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 5px solid #333;
-    transition: transform 3s ease, box-shadow 3s ease;
+    transition: transform 3s ease;
 }
 
 .dark-theme header nav ul {
@@ -58,7 +58,7 @@ body {
 }
 
 .dark-theme header nav ul li {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .dark-theme header nav ul li a {
