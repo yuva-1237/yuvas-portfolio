@@ -375,6 +375,12 @@ body {
     font-size: 0.9rem;
 }
 
+  .scroll-top {
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+  }
+
 /* Basic Responsive Design */
 @media (max-width: 768px) {
     .dark-theme header nav ul {
