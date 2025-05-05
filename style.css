@@ -379,7 +379,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ffcc00;
+  background-color: #32cd32;
   color: #000;
   border: none;
   padding: 10px 15px;
@@ -388,7 +388,7 @@ body {
 }
 
 .scroll-top:hover {
-  background-color: #e6b800;
+  background-color: #ffff00;
 }
 
 
